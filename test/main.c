@@ -2,9 +2,7 @@
 #include <stdio.h>
 int main(void)
 {
-	int n = 0;
-
-	n = _printf("Name: %s, Grade: %c, Score: 90%%\n", "Lola", "A");
-	n = printf("Name: %s, Grade: %c', Score: 90%%\n", "Lola", 'A');
+	_printf("Let's try to printf a simple sentence.\n");
+	printf("Let's try to printf a simple sentence.\n");
 	return (0);
 }
